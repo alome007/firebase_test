@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <EditText
+            android:layout_width="250dp"
+            android:hint="First Name"
+            android:id="@+id/f_name"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_marginTop="20dp"
+            android:hint="Last Name"
+            android:id="@+id/l_name"
+
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:hint="email"
+            android:id="@+id/email"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"/>
+        <EditText
+            android:layout_width="250dp"
+            android:hint="password"
+            android:id="@+id/password"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"/>
+
+        <Button
+            android:layout_width="300dp"
+            android:text="Save Data"
+            android:textColor="#fff"
+            android:id="@+id/save"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</LinearLayout>
